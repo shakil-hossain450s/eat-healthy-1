@@ -29,14 +29,22 @@ h1{
 }
 
 .half-width img{
-    width: 100%;
+    width: 90%;
 }
 
-.order-btn{
+.btn{
     text-decoration: none;
     color: white;
     font-weight: 600;
     background: linear-gradient(to left, orange, tomato);
-    padding: 18px 40px;
+    padding: 15px 35px;
     border-radius: 30px;
+    box-shadow: 5px 5px 20px orange;
+}
+
+.about-section{
+    background-image: url(./images/shapes/58.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
