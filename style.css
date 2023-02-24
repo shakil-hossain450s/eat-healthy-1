@@ -10,6 +10,13 @@ h1{
     color: gray;
 }
 
+h2{
+    font-size: 30px;
+    color: gray;
+    font-weight: 600;
+
+}
+
 .orange-color{
     color: orange;
 }
@@ -17,6 +24,7 @@ h1{
 .flexible-container{
     display: flex;
     align-items: center;
+    margin-bottom: 90px;
 }
 
 .half-width{
@@ -47,4 +55,51 @@ h1{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.recipies-header-text{
+    text-align: center;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.recipies-header-text p{
+    color: #262626;
+}
+
+.food-container{
+    width: 40%;margin: 0 5%;
+    padding: 2%;
+    border-radius: 30px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.food-container img{
+    width: 100%;
+}
+
+.recipie-title{
+    font-size: 20px;
+}
+
+.subscribers-section{
+    margin: 10% 5%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    box-shadow: 10px 10px 40px gray;
+   
+}
+
+footer{
+    background-color: #262626;
+    padding: 60px 0;
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer p{
+    color: #ddd;
 }
